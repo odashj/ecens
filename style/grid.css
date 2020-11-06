@@ -1,0 +1,63 @@
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 2.5%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF NINE  */
+.span_9_of_9 {
+	width: 100%;
+}
+
+.span_8_of_9 {
+  	width: 88.61%;
+}
+
+.span_7_of_9 {
+  	width: 77.22%;
+}
+
+.span_6_of_9 {
+  	width: 65.83%;
+}
+
+.span_5_of_9 {
+  	width: 54.44%;
+}
+
+.span_4_of_9 {
+  	width: 43.05%;
+}
+
+.span_3_of_9 {
+  	width: 31.66%;
+}
+
+.span_2_of_9 {
+  	width: 20.27%;
+}
+
+.span_1_of_9 {
+  	width: 8.888%;
+}
+
+/*  GO FULL WIDTH BELOW 768 PIXELS */
+@media only screen and (max-width: 768px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_9, .span_2_of_9, .span_3_of_9, .span_4_of_9, .span_5_of_9, .span_6_of_9, .span_7_of_9, .span_8_of_9, .span_9_of_9 { width: 100%; }
+}
