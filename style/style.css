@@ -21,7 +21,7 @@ margin: 0;
 }
 
 .wordmark-desktop {
-	background-image: url("../images/desktop_Illos.png");
+	background-image: url("../images/desktop_Illos@2x.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 60%;
@@ -29,7 +29,7 @@ margin: 0;
 }
 
 .wordmark-mobile {
-	background-image: url("../images/mobile_Illos.png");
+	background-image: url("../images/mobile_Illo@2xs.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
