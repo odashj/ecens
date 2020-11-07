@@ -21,7 +21,7 @@ margin: 0;
 }
 
 .wordmark-desktop {
-	background-image: url("../images/desktop_Illos@2x.png");
+	background-image: url("../images/desktop_Illos.svg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 60%;
