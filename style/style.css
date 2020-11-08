@@ -125,6 +125,15 @@ h4 a {
 	text-decoration: none;
 }
 
+h5 {
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 140%;
+	color: #3A0B5C;
+	text-align: center;
+	margin-bottom: 0;
+}
+
 p {
 	font-weight: 400;
 	font-size: 16px;
@@ -143,8 +152,8 @@ strong {
 	width:28%;
 	height:4px;
 	border-width:0;
-	color: #3A0B5C;
-	background-color: #3A0B5C;
+	color: #ffffff;
+	background-color: #ffffff;
 }
 
 .spacer {
@@ -164,6 +173,14 @@ strong {
 
 .nav-item {
 	padding-left: 2em;
+}
+
+.mobile-nav {
+	display: none;
+}
+
+.mobile-menu {
+	display: none;
 }
 
 .tagline {
@@ -245,7 +262,40 @@ strong {
     opacity:0;
 }
 
+.purple {
+	background-color: #3A0B5C;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
 
 
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #3A0B5C; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+li {
+	padding-bottom:15px;
+}
+
+.diagram-desktop {
+	display: block;
+}
+
+.diagram-mobile {
+	display: none;
+}
+
+.button {
+	cursor: pointer;
+}
 
 
