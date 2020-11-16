@@ -47,7 +47,7 @@ margin: 0;
 
 
 .header {
-	background-color: #3A0B5C;
+	background-color: #000000;
 	height: 100vh;
 	width: 100vw;
 	left: 0;
@@ -66,8 +66,9 @@ h1 {
 	font-size: 24px;
 	letter-spacing: 1px;
 	line-height: 140%;
-	color: #3A0B5C;
+	color: #0EA300;
 }
+
 
 h2 {
 	font-weight: 400;
@@ -120,16 +121,25 @@ h4 {
 	color: #ffffff;	
 }
 
+
 h4 a {
+	text-decoration: underline;
+	text-decoration-color: #000000;
 	color: inherit;
-	text-decoration: none;
+		-webkit-transition: text-decoration 400ms ease-in-out; /* Safari prior 6.1 */
+  transition: text-decoration 400ms ease-in-out;
+}
+
+h4 a:hover {
+	text-decoration: underline;
+	text-decoration-color: #0EA300;
 }
 
 h5 {
 	font-weight: 400;
 	font-size: 64px;
 	line-height: 140%;
-	color: #3A0B5C;
+	color: #0EA300;
 	text-align: center;
 	margin-bottom: 0;
 }
@@ -263,7 +273,7 @@ strong {
 }
 
 .purple {
-	background-color: #3A0B5C;
+	background-color: #000000;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
@@ -275,7 +285,7 @@ ul {
 
 ul li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #3A0B5C; /* Change the color */
+  color: #0EA300; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */

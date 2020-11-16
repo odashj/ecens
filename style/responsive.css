@@ -60,7 +60,7 @@
 	.mobile-menu {
 		position: fixed;
 		display: none;
-		background-color: #3A0B5C;
+		background-color: #000000;
 		z-index: 10000;
 		width: 100%;
 		height: 100vh;
